@@ -63,6 +63,21 @@
     .product-cart__price-text span {
         display: none;
     }
+    .swiper-container {
+        margin: 0 0;
+    }
+    .swiper {
+        height: 30vh;   
+        border-radius: 0;
+    }
+
+    .category-box{
+        width: 15rem;
+        height: 15rem;
+    }
+    .category-boxs {
+        gap: 5rem 3rem;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -111,6 +126,13 @@
 
     .product-cart__price-text span {
         display: none;
+    }
+    .swiper-container {
+        margin: 0 0;
+    }
+    .swiper {
+        height: 40vh;   
+        border-radius: 0;
     }
 }
 
@@ -161,6 +183,13 @@
     .product-cart__price-text span {
         display: none;
     }
+    .swiper-container {
+        margin: 0 0;
+    }
+    .swiper {
+        height: 50vh;   
+        border-radius: 0;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1400px) {
@@ -193,7 +222,7 @@
         font-size: 1.5rem;
     }
 
-    .category-box {
+    .category-submenu {
         width: 13rem;
         height: 18rem;
     }

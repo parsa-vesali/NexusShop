@@ -1,0 +1,59 @@
+/*
+===================================
+            CATEGORY STYLES
+===================================
+*/
+
+.category-boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem 4rem;
+    margin-top: 8rem ;
+}
+
+.category-box {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    background: #eef5fd;
+    border-radius: 50%;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.category-box__img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-box__img img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.category-box__btn {
+    position: absolute;
+    bottom: -2rem;
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    background-color: var(--white-color);
+    font-family: var(--secondary-font);
+    color: var(--primary-dark-color);
+    font-weight: bold;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    transition: all 200ms ease-in-out;
+    transition-delay: 50ms;
+}
+.category-box:hover .category-box__btn {
+    bottom: -1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
