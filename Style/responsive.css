@@ -67,16 +67,25 @@
         margin: 0 0;
     }
     .swiper {
-        height: 30vh;   
+        height: 27vh;   
         border-radius: 0;
     }
 
-    .category-box{
-        width: 15rem;
-        height: 15rem;
-    }
     .category-boxs {
         gap: 5rem 2rem;
+        margin-top: 5rem;
+    }
+    .category-box {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .category-box__img img {
+        width: 8rem;
+        height: 8rem;
+    }
+    .category-box__btn  {
+        padding: 1rem 4rem;
     }
 }
 
@@ -133,6 +142,13 @@
     .swiper {
         height: 40vh;   
         border-radius: 0;
+    }
+    .category-boxs {
+        gap: 5rem 4rem;
+    }
+    .category-box {
+        width: 15rem;
+        height: 15rem;
     }
 }
 
