@@ -2,8 +2,8 @@
 @import url("font.css");
 @import url("header.css");
 @import url("helper.css");
-@import url("swiper.css");
-@import url("main.css   ");
+@import url("slider.css");
+@import url("main.css ");
 @import url("responsive.css");
 :root {
     --white-color: #ffff;
@@ -25,6 +25,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 html {
@@ -43,8 +44,25 @@ a {
     color: var(--dark-color);
 }
 
-/*
-===================================
-            SLIDER STYLES
-===================================
-*/
+img {
+    width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #00000078;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 200ms ease;
+}
+
+.overlay-active {
+    opacity: 1;
+    visibility: visible;
+}

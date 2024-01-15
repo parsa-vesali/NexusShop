@@ -4,7 +4,7 @@
 ===================================
 */
 
-.category-boxs {
+.category-boxes {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,6 +54,66 @@
 }
 .category-box:hover .category-box__btn {
     bottom: -1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+/*
+===================================
+            INTRODUCTION STYLES
+===================================
+*/
+
+.introduction{
+    margin-top: 10rem;
+    overflow: hidden;
+}
+.introduction__boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.introduction__box:nth-child(2) {
+    background-color: var(--primary-dark-color);
+}
+.introduction__box{
+    width: 55rem;
+    height: 55rem;
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    color: var(--white-color);
+}
+.introduction__box-left{
+    width: 50%;
+}
+.introduction__box-img{
+    width: 30rem;
+}
+.introduction__box-right{
+    width: 50%;
+}
+.introduction__box-small-title{
+
+}
+.introduction__box-title{
+    font-family: var(--secondary-font);
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 6rem;
+}
+.introduction__box-text{
+    color: #e7e7e7d8;
+    margin: 3rem 0;
+}
+.introduction__box-btn-blue {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+.introduction__box-btn-blue:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
