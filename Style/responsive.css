@@ -146,7 +146,7 @@
 
     .product-box {
         width: 14rem;
-        height: 24rem;
+        height: 22rem;
         padding: 1rem;
     }
 
@@ -177,6 +177,7 @@
     }
     .product-box__footer {
         margin-top: 1rem;
+        gap: .5rem;
     }
     .product-box__footer-left{
         column-gap: .3rem;
