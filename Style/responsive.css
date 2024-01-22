@@ -189,6 +189,47 @@
     .product-box__star-icon{
         font-size: 1.2rem;
     }
+
+
+    .club{
+        height: 25rem;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .club__text-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .club__text-subtitle {
+        font-size: 1.5rem;
+    }
+    .club__boxes{
+        column-gap: 0.5rem;
+    }
+    .club__box {
+        width: 7rem;
+        height: 7rem;
+        padding: 1rem 0.5rem;
+    }
+    .club__box-svg {
+        width: 2rem;
+    }
+    .club__score{
+        margin-right: 1.5rem;
+    }
+    .club__box-text {
+        font-size: 1.2rem;
+    }
+    .club__score-title {
+        font-size: 2rem;
+    }
+    .club__score-subtitle {
+        font-size: 1.2rem;
+    }
+    .club__score-link {
+        width: 8rem;
+        font-size: 1rem;
+    }
 }
 
 
@@ -354,6 +395,47 @@
     .product-box__star-icon{
         font-size: 1.2rem;
     }
+
+    
+    .club{
+        height: 25rem;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .club__text-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .club__text-subtitle {
+        font-size: 1.5rem;
+    }
+    .club__boxes{
+        column-gap: 0.5rem;
+    }
+    .club__box {
+        width: 7rem;
+        height: 7rem;
+        padding: 1rem 0.5rem;
+    }
+    .club__box-svg {
+        width: 2rem;
+    }
+    .club__score{
+        margin-right: 1.5rem;
+    }
+    .club__box-text {
+        font-size: 1.2rem;
+    }
+    .club__score-title {
+        font-size: 2rem;
+    }
+    .club__score-subtitle {
+        font-size: 1.2rem;
+    }
+    .club__score-link {
+        width: 8rem;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -442,6 +524,46 @@
         font-size: 1.3rem;
     }
 
+    
+    .club{
+        height: 25rem;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .club__text-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .club__text-subtitle {
+        font-size: 1.5rem;
+    }
+    .club__boxes{
+        column-gap: 0.5rem;
+    }
+    .club__box {
+        width: 7rem;
+        height: 7rem;
+        padding: 1rem 0.5rem;
+    }
+    .club__box-svg {
+        width: 2rem;
+    }
+    .club__score{
+        margin-right: 1.5rem;
+    }
+    .club__box-text {
+        font-size: 1.2rem;
+    }
+    .club__score-title {
+        font-size: 2rem;
+    }
+    .club__score-subtitle {
+        font-size: 1.2rem;
+    }
+    .club__score-link {
+        width: 8rem;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1400px) {
