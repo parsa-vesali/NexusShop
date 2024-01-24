@@ -230,28 +230,12 @@
         width: 8rem;
         font-size: 1rem;
     }
+    .articles__boxes {
+        display: none;
+    }
 
-
-
-    .article__box {
-        height: 15rem;
-        width: 35rem;
+    .articles__boxes-mobile{
         display: flex;
-        column-gap: 1rem;
-    }
-    .article__box-img {
-        width: 13rem;
-        height: 13rem;
-    }
-    .article__box-text {
-        display: flex;
-        flex-direction: column;
-    }
-    .article__box-title {
-        font-size: 1.4rem;
-    }
-    .article__box-text-right {
-        padding: 0;
     }
 }
 
