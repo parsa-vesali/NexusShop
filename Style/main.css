@@ -445,6 +445,7 @@
 
 .articles {
     margin-top: 8rem;
+    overflow: hidden;
 }
 
 .articles__boxes {
@@ -641,7 +642,6 @@
     font-family: var(--primary-font);
     padding: 1.5rem 3rem;
     border-radius: 2.5rem;
-    width: 50rem;
     position: relative;
     width: 45rem;
     height: 100%;
