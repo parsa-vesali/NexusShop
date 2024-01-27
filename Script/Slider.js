@@ -6,6 +6,7 @@ var swiper = new Swiper(".popular-slider", {
         delay: 2500,
         disableOnInteraction: false,
     },
+    loop : true ,
     navigation: {
         nextEl: ".swipers-button-next",
         prevEl: ".swipers-button-prev",
