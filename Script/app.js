@@ -9,7 +9,7 @@ const cartOpenBtn = document.querySelector(".nav-mobile__left-shopping-cart");
 const cartCloseBtn = document.querySelector(".mobile-cart__close");
 const cart = document.querySelector(".mobile-cart");
 const openCartBtn = document.querySelector(".open-cart__btn");
-
+const BodyElem = document.getElementsByTagName('body')
 // Event listener for submenu toggle
 submenuOpenBtn.addEventListener("click", (e) => {
     submenu.classList.toggle('submenu-active')
@@ -20,18 +20,21 @@ function closeNav() {
     nav.classList.remove('active-menu');
     submenu.classList.remove('submenu-active');
     overlay.classList.remove('overlay-active');
+     document.body.style.overflow = 'auto'
 }
 
 // Function to close the cart
 function closeCart() {
     cart.classList.remove("active-cart");
     overlay.classList.remove('overlay-active');
+    document.body.style.overflow = 'auto'
 }
 
 // Event listener for opening the cart
 openCartBtn.addEventListener('click', () => {
     cart.classList.add("active-cart");
     nav.classList.remove('active-menu');
+    document.body.style.overflow = 'hidden'
 });
 
 // Event listener for opening the navigation
@@ -39,6 +42,7 @@ navOpenBtn.addEventListener("click", () => {
     nav.classList.add('active-menu');
     cart.classList.remove("active-cart");
     overlay.classList.add('overlay-active');
+    document.body.style.overflow = 'hidden'
 });
 
 // Event listener for opening the cart
@@ -46,6 +50,7 @@ cartOpenBtn.addEventListener("click", () => {
     cart.classList.add("active-cart");
     nav.classList.remove('active-menu');
     overlay.classList.add('overlay-active');
+    document.body.style.overflow = 'hidden'
 });
 
 // Event listener for closing the navigation

@@ -142,10 +142,11 @@
 
     .products-boxes {
         gap: 1rem;
+        justify-content: space-between;
     }
 
     .product-box {
-        width: 14rem;
+        width: 16rem;
         height: 22rem;
         padding: 1rem;
     }
@@ -296,6 +297,14 @@
         font-size: 1.2rem;
         margin-bottom: 2rem;
     }
+    .cssbuttons-io {
+        font-size: 1.2rem;
+    }
+
+    .popular-slider {
+        height: 35vh !important;
+    }
+    
 }
 
 
