@@ -64,15 +64,10 @@
         display: none;
     }
 
-    .swiper-container {
-        margin: 0 0;
+    .slider{
+        height: 30vh;
+        margin: 0;
     }
-
-    .swiper {
-        height: 27vh;
-        border-radius: 0;
-    }
-
     .category-boxs {
         gap: 5rem 2rem;
         margin-top: 5rem;
