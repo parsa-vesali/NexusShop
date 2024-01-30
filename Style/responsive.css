@@ -68,6 +68,11 @@
         height: 30vh;
         margin: 0;
     }
+    .slider__controls-next, .slider__controls-prev {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
     .category-boxs {
         gap: 5rem 2rem;
         margin-top: 5rem;
